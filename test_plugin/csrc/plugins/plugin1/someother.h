@@ -7,6 +7,7 @@
 
 namespace someother {
     void do_something(std::string s);
+    std::string evenOrOdd(int n);
 }
 
 #endif // SOMEOTHER_H

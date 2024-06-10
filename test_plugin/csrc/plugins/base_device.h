@@ -6,6 +6,7 @@
 class BaseDevice {
 public:
     virtual void do_something(std::string s) = 0;
+    virtual void do_something_inner() = 0;  
     virtual ~BaseDevice() = default;
 };
 

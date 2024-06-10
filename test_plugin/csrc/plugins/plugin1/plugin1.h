@@ -27,6 +27,9 @@ public:
         // Call the do_something() function from the someother namespace
         someother::do_something(s);
     }
+    void do_something_inner() override {
+        std::cout << "Plugin1 Device doing something inner!" << std::endl;
+    }
 };
 
 // implementation of plugin1
